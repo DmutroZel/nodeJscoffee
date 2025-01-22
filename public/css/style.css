@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+.wrap{
+    width: 100%;
+    height: 150vh;
+    background-color: #F6F2EE;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    width: 100%;
+    height: 15vh;
+    background-color: #F6F2EE;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+header a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+}
+main{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+}
+.info{
+    width: 50%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    gap: 30px;
+}
+.info h1{
+    font-size: 50px;
+    font-weight: 300;
+    margin: 0px 100px; 
+}
+.info p{
+    font-size: 24px;
+    font-weight: 300;
+    margin: 20px 100px;
+}
+.blButton{
+    width: 200px;
+    height: 50px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 20px 100px;
+    cursor: pointer;
+}
+.whButton{
+    width: 200px;
+    height: 50px;
+    background-color: #fff;
+    color: #000;
+    border: 3px solid #D48A5C;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+.btnContainer{
+    display: flex;
+    
+}
+.photo{
+    width: 50%;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+footer{
+    width: 100%;
+    height: 50vh;
+    background-color: #FFFFFF;
+    border-top: 2px solid #D48A5C;
+    border-bottom: 2px solid #D48A5C;
+}
+.contactFoot{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contactFoot i{
+    font-size: 30px;
+    color: #D48A5C;
+}
+.contactFoot span{
+    font-weight: 600;
+}
+.phoneNumber{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.contactFoot input{
+    width: 300px;
+    height: 50px;
+    background-color: #F2EAE2;
+    border: none;
+    padding: 10px;
+    color: #8D8D8D;
+    appearance: none;
+    outline: none;
+    border: none;
+}
+.address{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 5px;
+}
+
+.infoFoot{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.logo2 p{
+    color: gray;
+    font-size: 14px;
+}
+.socialMedia{
+    display: flex;
+    gap: 15px;
+}
+.socialMediaBox{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(50, 50, 50);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-facebook{
+    font-size: 30px;
+    color: rgb(53, 53, 244);
+   
+}
+.fa-twitter{
+    font-size: 30px;
+    color: rgb(44, 180, 218);
+}
+.fa-instagram{
+    font-size: 30px;
+    color: rgb(229, 24, 24);
+}

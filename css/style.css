@@ -1,0 +1,601 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+.wrap{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #F6F2EE;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    width: 100%;
+    height: 15vh;
+    background-color: #F6F2EE;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+header a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+}
+main{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+}
+.info{
+    width: 50%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    gap: 30px;
+}
+.info h1{
+    font-size: 50px;
+    font-weight: 300;
+    margin: 0px 100px; 
+}
+.info p{
+    font-size: 24px;
+    font-weight: 300;
+    margin: 20px 100px;
+}
+.blButton{
+    width: 200px;
+    height: 50px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 20px 100px;
+    cursor: pointer;
+}
+.whButton{
+    width: 200px;
+    height: 50px;
+    background-color: #fff;
+    color: #000;
+    border: 3px solid #D48A5C;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+.btnContainer{
+    display: flex;
+    
+}
+.photo{
+    width: 50%;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+footer{
+    width: 100%;
+    height: 50vh;
+    background-color: #FFFFFF;
+    border-top: 2px solid #D48A5C;
+    border-bottom: 2px solid #D48A5C;
+}
+.contactFoot{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contactFoot i{
+    font-size: 30px;
+    color: #D48A5C;
+}
+.contactFoot span{
+    font-weight: 600;
+}
+.contactFoot button i{
+    font-size: 26px;
+    color: #D48A5C;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: -40px; 
+   
+    
+}
+.contactFoot button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    all: unset;
+}
+.phoneNumber{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+#emailForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.contactFoot input{
+    width: 300px;
+    height: 50px;
+    background-color: #F2EAE2;
+    border: none;
+    padding: 10px;
+    color: #8D8D8D;
+    appearance: none;
+    outline: none;
+    border: none;
+}
+.address{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 5px;
+}
+
+.infoFoot{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.logo2 p{
+    color: gray;
+    font-size: 14px;
+}
+.socialMedia{
+    display: flex;
+    gap: 15px;
+}
+.socialMediaBox{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(50, 50, 50);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-facebook{
+    font-size: 30px;
+    color: rgb(53, 53, 244);
+   
+}
+.fa-twitter{
+    font-size: 30px;
+    color: rgb(44, 180, 218);
+}
+.fa-instagram{
+    font-size: 30px;
+    color: rgb(229, 24, 24);
+}
+
+
+
+
+
+
+
+
+
+.main2 {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.main2 h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 70px;
+    justify-items: center;
+}
+
+.product {
+    background-color: #fff;
+    border: 5px solid #414141;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+}
+
+.product img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover; 
+    margin-left: -60px;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left; /
+}
+
+.product-info p {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.product-info span {
+    font-size: 1.2rem;
+    color: #ff6700;
+    margin-top: 5px;
+}
+
+
+
+
+
+.main3 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.customer-review {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.customer-review h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.customer-review p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.customer-review .reviewer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.customer-review img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.customer-review span {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.customer-review .arrows {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.customer-review .arrows i {
+    font-size: 1.5rem;
+    color: #D48A5C;
+    margin: 0 15px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.customer-review .arrows i:hover {
+    color: #B35642;
+}
+
+/* Секція бронювання */
+.booking {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.map img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.reservation-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    max-width: 400px;
+}
+
+.reservation-form h3 {
+    font-size: 1rem;
+    color: #D48A5C;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.reservation-form h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.reservation-form .form-group {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.reservation-form input {
+    width: 100%;
+    padding: 10px 40px 10px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+    outline: none;
+}
+
+.reservation-form input:focus {
+    border-color: #D48A5C;
+}
+
+.reservation-form i {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #D48A5C;
+}
+
+.reservation-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.reservation-form button:hover {
+    background-color: #555;
+}
+
+
+
+
+
+
+
+
+.main4 {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #F6F2EE;
+}
+
+.main4 h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #1C1A1A;
+    margin-bottom: 30px;
+    font-family: ZCOOL XiaoWei;
+}
+
+
+
+
+
+
+.main5{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+.product-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    width: 100%;
+}
+
+.product-card {
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+}
+
+.product-image {
+    width: 350px;
+    height: 350px;
+    background-color: #13131A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.product-image img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    object-fit: cover;
+    scale: 1.4;
+}
+
+.product-details {
+    padding: 20px;
+    text-align: left;
+}
+
+.product-details h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-family: ZCOOL XiaoWei;
+}
+
+.product-details .rating {
+    margin: 10px 0;
+    color: #ff6700;
+}
+.product-details span {
+    color: #1C1A1A;
+}
+.spanPrice{
+    color: #1C1A1A;
+    font-weight: 600;
+}
+.product-details .price {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #d48a5c;
+}
+
+
+
+
+.section-title {
+    font-size: 32px;
+    margin: 40px 0;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.news-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+
+.news-card {
+    width: 350px;
+    height: 450px;
+    background: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.news-card:hover {
+    transform: translateY(-5px);
+}
+
+
+.news-image {
+    width: 100%;
+    height: 310px;
+    object-fit: cover;
+}
+
+
+.news-content {
+   background-color: #1C1A1A;
+    color: white;
+    padding: 15px;
+    text-align: left;
+}
+
+
+.news-meta {
+    font-size: 12px;
+    color: #d4af7a;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.news-meta span {
+    font-weight: bold;
+}
+
+
+.news-title {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+
+.read-more {
+    font-size: 14px;
+    text-decoration: none;
+    color: #d4af7a;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+    transition: color 0.3s ease;
+}
+
+.read-more:hover {
+    color: #f5d395;
+}

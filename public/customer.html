@@ -23,9 +23,47 @@
 
 
 
-        <main>
-            <h1>oleg2</h1>
-        </main>
+        <div class="main3">
+            <section class="customer-review">
+                <h2>OUR CUSTOMER REVIEW</h2>
+                <p>
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem opposed to using 'Content here, content here..
+                </p>
+                <div class="reviewer">
+                    <img src="photos/man.png" alt="Customer Photo">
+                    <span>Rasalida Williamson</span>
+                </div>
+                <div class="arrows">
+                    <i class="fa-solid fa-chevron-left"></i>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+            </section>
+        
+            <section class="booking">
+                <div class="map">
+                    <img src="/photos/map.png" alt="Map Image">
+                </div>
+                <div class="reservation-form">
+                    <h3>RESERVATION</h3>
+                    <h2>BOOKING A TABLE</h2>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="4 Person">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                        <div class="form-group">
+                            <input type="date" placeholder="12/06/2022">
+                            <i class="fa-solid fa-calendar"></i>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <button type="submit">BOOK A TABLE</button>
+                    </form>
+                </div>
+            </section>
+        </div>
 
 
 
@@ -40,7 +78,10 @@
                 <div class="address">
                     <i class="fa-solid fa-location-dot"></i> <span>Address:</span> 1234 Street Dunusko
                 </div>
-                <input type="text" placeholder="Enter your email">
+                <form id="emailForm" action="/save-email" method="POST">
+                    <input type="email" name="email" placeholder="Enter your email" required>
+                    <button type="submit"><i class="fa-solid fa-envelope"></i></button>
+                </form>
             </div>
 
 

@@ -52,7 +52,10 @@
                 <div class="address">
                     <i class="fa-solid fa-location-dot"></i> <span>Address:</span> 1234 Street Dunusko
                 </div>
-                <input type="text" placeholder="Enter your email">
+                <form id="emailForm" action="/save-email" method="POST">
+                    <input type="email" name="email" placeholder="Enter your email" required>
+                    <button type="submit"><i class="fa-solid fa-envelope"></i></button>
+                </form>
             </div>
 
 

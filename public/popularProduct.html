@@ -23,10 +23,53 @@
 
 
 
-        <main>
-            <h1>oleg1</h1>
-        </main>
-
+        <div class="main2">
+            <h1>Cafena Popular Product</h1>
+        <div class="product-grid">
+            <div class="product">
+                <img src="/photos/vicara-coffee.png" alt="Vicaragua Coffee Beans">
+                <div class="product-info">
+                    <p>Vicaragua Coffee Beans</p>
+                    <span>$29</span>
+                </div>
+            </div>
+            <div class="product">
+                <img src="/photos/vicara-coffee.png" alt="Vicaragua Coffee Beans">
+                <div class="product-info">
+                    <p>Vicaragua Coffee Beans</p>
+                    <span>$29</span>
+                </div>
+            </div>
+            <div class="product">
+                <img src="/photos/espresso.png" alt="Espresso Ristretto">
+                <div class="product-info">
+                    <p>Espresso Ristretto</p>
+                    <span>$29</span>
+                </div>
+            </div>
+            <div class="product">
+                <img src="/photos/espresso.png" alt="Espresso Ristretto">
+                <div class="product-info">
+                    <p>Espresso Ristretto</p>
+                    <span>$29</span>
+                </div>
+            </div>
+            <div class="product">
+                <img src="/photos/ethiopia-coffee.png" alt="Ethiopia Coffee">
+                <div class="product-info">
+                    <p>Ethiopia Coffee</p>
+                    <span>$29</span>
+                </div>
+            </div>
+            <div class="product">
+                <img src="/photos/ethiopia-coffee.png" alt="Ethiopia Coffee">
+                <div class="product-info">
+                    <p>Ethiopia Coffee</p>
+                    <span>$29</span>
+                </div>
+            </div>
+        </div>
+        </div>
 
 
 
@@ -40,7 +83,10 @@
                 <div class="address">
                     <i class="fa-solid fa-location-dot"></i> <span>Address:</span> 1234 Street Dunusko
                 </div>
-                <input type="text" placeholder="Enter your email">
+                <form id="emailForm" action="/save-email" method="POST">
+                    <input type="email" name="email" placeholder="Enter your email" required>
+                    <button type="submit"><i class="fa-solid fa-envelope"></i></button>
+                </form>
             </div>
 
 
